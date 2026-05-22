@@ -23,9 +23,7 @@ import numpy as np
 # CONFIGURATIE
 # ============================================================================
 
-APP_PASSWORD = "vera2026"
-
-NL_ORANGE = "#FF6600"
+APP_NL_ORANGE = "#FF6600"
 NL_BLUE = "#003DA5"
 NL_RED = "#CC0000"
 NL_GREY = "#666666"
@@ -992,9 +990,6 @@ def main():
         .stButton > button:hover {{ background-color: #CC5200; color: white; }}
     </style>
     """, unsafe_allow_html=True)
-
-    if not check_password():
-        return
 
     swv_df = load_samenwerkingsverbanden()
     ref_df = load_referentieniveau_data(swv_df)
