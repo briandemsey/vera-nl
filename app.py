@@ -243,12 +243,6 @@ def load_landelijke_referentieniveaus():
 # AUTHENTICATIE
 # ============================================================================
 
-def check_password():
-    if 'authenticated' not in st.session_state:
-        st.session_state.authenticated = False
-    if st.session_state.authenticated:
-        return True
-
     st.markdown(f"""
     <div style="text-align: center; padding: 60px 20px;">
         <h1 style="color: {NL_ORANGE}; font-size: 3rem; margin-bottom: 10px;">VERA-NL</h1>
