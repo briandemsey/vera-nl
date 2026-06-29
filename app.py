@@ -23,7 +23,7 @@ import numpy as np
 # CONFIGURATIE
 # ============================================================================
 
-APP_NL_ORANGE = "#FF6600"
+NL_ORANGE = "#FF6600"
 NL_BLUE = "#003DA5"
 NL_RED = "#CC0000"
 NL_GREY = "#666666"
